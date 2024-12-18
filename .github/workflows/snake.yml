@@ -11,12 +11,16 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
+      - name: Push Snake Animation to the README
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages # Target branch to push the snake.svg
+          publish_dir: ./dist
+          force_orphan: true # Force create the branch if it doesn’t exist
+
+
+
 
       - name: Push Snake Animation to the README
         uses: peaceiris/actions-gh-pages@v3
