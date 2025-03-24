@@ -41,7 +41,6 @@
   
  
   
-  <img src="https://skillicons.dev/icons?i=vuejs" height="40" alt="vuejs logo" />
   
   <img src="https://skillicons.dev/icons?i=django" height="40" alt="django logo" />
   
@@ -55,13 +54,11 @@
   
   
   <!-- DevOps and Cloud -->
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo" />
   
   <img src="https://skillicons.dev/icons?i=aws" height="40" alt="aws logo" />
   
   <img src="https://skillicons.dev/icons?i=googlecloud" height="40" alt="googlecloud logo" />
   
-  <img src="https://skillicons.dev/icons?i=heroku" height="40" alt="heroku logo" />
   
   <img src="https://skillicons.dev/icons?i=vercel" height="40" alt="vercel logo" />
   
@@ -73,7 +70,6 @@
   
   <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo" />
   
-  <img src="https://skillicons.dev/icons?i=gitlab" height="40" alt="gitlab logo" />
   
   
   <!-- Operating Systems -->
